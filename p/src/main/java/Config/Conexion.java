@@ -10,9 +10,12 @@ public class Conexion {
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vacukidsv?useSSL=false", "root", "admin1234");
         } catch (Exception e) {
             System.err.println("Error al conectar a la base de datos: " + e.toString());
+            System.err.println("Conexion exitosa");
         }
     }
     public Connection getCon() {
         return con;
+
     }
+
 }
