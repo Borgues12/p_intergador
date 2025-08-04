@@ -20,7 +20,7 @@ import java.util.List;
 
 @WebServlet(name = "Controlador", urlPatterns = {"/Controlador"})
 public class Controlador extends HttpServlet {
-
+//holaaa
     String acceso = "";
     String listar_centros = "centro_salud/listar_centros.jsp";
     // AÑADIDO
