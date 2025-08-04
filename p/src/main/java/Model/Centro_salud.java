@@ -16,6 +16,7 @@ public class Centro_salud {
     }
 
     //Getters y Setters
+    //bsbsb
 
     public int getIdCentroSalud() {
         return idCentroSalud;
